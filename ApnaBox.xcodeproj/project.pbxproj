@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2AC3791B36C79B00B41AD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC3781B36C79B00B41AD7 /* AppDelegate.swift */; };
+		BB2AC37C1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC37A1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld */; };
+		BB2AC37E1B36C79B00B41AD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */; };
+		BB2AC3811B36C79B00B41AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC37F1B36C79B00B41AD7 /* Main.storyboard */; };
+		BB2AC3831B36C79B00B41AD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC3821B36C79B00B41AD7 /* Images.xcassets */; };
+		BB2AC3861B36C79B00B41AD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */; };
+		BB2AC3921B36C79B00B41AD7 /* ApnaBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2AC38C1B36C79B00B41AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB2AC36B1B36C79B00B41AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB2AC3721B36C79B00B41AD7;
+			remoteInfo = ApnaBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB2AC3731B36C79B00B41AD7 /* ApnaBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApnaBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2AC3771B36C79B00B41AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2AC3781B36C79B00B41AD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB2AC37B1B36C79B00B41AD7 /* ApnaBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ApnaBox.xcdatamodel; sourceTree = "<group>"; };
+		BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB2AC3801B36C79B00B41AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB2AC3821B36C79B00B41AD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB2AC3851B36C79B00B41AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB2AC38B1B36C79B00B41AD7 /* ApnaBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApnaBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2AC3901B36C79B00B41AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApnaBoxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2AC3701B36C79B00B41AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2AC3881B36C79B00B41AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2AC36A1B36C79B00B41AD7 = {
+			isa = PBXGroup;
+			children = (
+				BB2AC3751B36C79B00B41AD7 /* ApnaBox */,
+				BB2AC38E1B36C79B00B41AD7 /* ApnaBoxTests */,
+				BB2AC3741B36C79B00B41AD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2AC3741B36C79B00B41AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2AC3731B36C79B00B41AD7 /* ApnaBox.app */,
+				BB2AC38B1B36C79B00B41AD7 /* ApnaBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2AC3751B36C79B00B41AD7 /* ApnaBox */ = {
+			isa = PBXGroup;
+			children = (
+				BB2AC3781B36C79B00B41AD7 /* AppDelegate.swift */,
+				BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */,
+				BB2AC37F1B36C79B00B41AD7 /* Main.storyboard */,
+				BB2AC3821B36C79B00B41AD7 /* Images.xcassets */,
+				BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */,
+				BB2AC37A1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld */,
+				BB2AC3761B36C79B00B41AD7 /* Supporting Files */,
+			);
+			path = ApnaBox;
+			sourceTree = "<group>";
+		};
+		BB2AC3761B36C79B00B41AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2AC3771B36C79B00B41AD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB2AC38E1B36C79B00B41AD7 /* ApnaBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */,
+				BB2AC38F1B36C79B00B41AD7 /* Supporting Files */,
+			);
+			path = ApnaBoxTests;
+			sourceTree = "<group>";
+		};
+		BB2AC38F1B36C79B00B41AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2AC3901B36C79B00B41AD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2AC3721B36C79B00B41AD7 /* ApnaBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2AC3951B36C79B00B41AD7 /* Build configuration list for PBXNativeTarget "ApnaBox" */;
+			buildPhases = (
+				BB2AC36F1B36C79B00B41AD7 /* Sources */,
+				BB2AC3701B36C79B00B41AD7 /* Frameworks */,
+				BB2AC3711B36C79B00B41AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApnaBox;
+			productName = ApnaBox;
+			productReference = BB2AC3731B36C79B00B41AD7 /* ApnaBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB2AC38A1B36C79B00B41AD7 /* ApnaBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2AC3981B36C79B00B41AD7 /* Build configuration list for PBXNativeTarget "ApnaBoxTests" */;
+			buildPhases = (
+				BB2AC3871B36C79B00B41AD7 /* Sources */,
+				BB2AC3881B36C79B00B41AD7 /* Frameworks */,
+				BB2AC3891B36C79B00B41AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB2AC38D1B36C79B00B41AD7 /* PBXTargetDependency */,
+			);
+			name = ApnaBoxTests;
+			productName = ApnaBoxTests;
+			productReference = BB2AC38B1B36C79B00B41AD7 /* ApnaBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2AC36B1B36C79B00B41AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Pranai Basani";
+				TargetAttributes = {
+					BB2AC3721B36C79B00B41AD7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BB2AC38A1B36C79B00B41AD7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BB2AC3721B36C79B00B41AD7;
+					};
+				};
+			};
+			buildConfigurationList = BB2AC36E1B36C79B00B41AD7 /* Build configuration list for PBXProject "ApnaBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB2AC36A1B36C79B00B41AD7;
+			productRefGroup = BB2AC3741B36C79B00B41AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2AC3721B36C79B00B41AD7 /* ApnaBox */,
+				BB2AC38A1B36C79B00B41AD7 /* ApnaBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2AC3711B36C79B00B41AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2AC3811B36C79B00B41AD7 /* Main.storyboard in Resources */,
+				BB2AC3861B36C79B00B41AD7 /* LaunchScreen.xib in Resources */,
+				BB2AC3831B36C79B00B41AD7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2AC3891B36C79B00B41AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2AC36F1B36C79B00B41AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2AC37E1B36C79B00B41AD7 /* ViewController.swift in Sources */,
+				BB2AC3791B36C79B00B41AD7 /* AppDelegate.swift in Sources */,
+				BB2AC37C1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2AC3871B36C79B00B41AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2AC3921B36C79B00B41AD7 /* ApnaBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB2AC38D1B36C79B00B41AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB2AC3721B36C79B00B41AD7 /* ApnaBox */;
+			targetProxy = BB2AC38C1B36C79B00B41AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB2AC37F1B36C79B00B41AD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2AC3801B36C79B00B41AD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2AC3851B36C79B00B41AD7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2AC3931B36C79B00B41AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB2AC3941B36C79B00B41AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2AC3961B36C79B00B41AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApnaBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB2AC3971B36C79B00B41AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApnaBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB2AC3991B36C79B00B41AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApnaBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApnaBox.app/ApnaBox";
+			};
+			name = Debug;
+		};
+		BB2AC39A1B36C79B00B41AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApnaBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApnaBox.app/ApnaBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2AC36E1B36C79B00B41AD7 /* Build configuration list for PBXProject "ApnaBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2AC3931B36C79B00B41AD7 /* Debug */,
+				BB2AC3941B36C79B00B41AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2AC3951B36C79B00B41AD7 /* Build configuration list for PBXNativeTarget "ApnaBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2AC3961B36C79B00B41AD7 /* Debug */,
+				BB2AC3971B36C79B00B41AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB2AC3981B36C79B00B41AD7 /* Build configuration list for PBXNativeTarget "ApnaBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2AC3991B36C79B00B41AD7 /* Debug */,
+				BB2AC39A1B36C79B00B41AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB2AC37A1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB2AC37B1B36C79B00B41AD7 /* ApnaBox.xcdatamodel */,
+			);
+			currentVersion = BB2AC37B1B36C79B00B41AD7 /* ApnaBox.xcdatamodel */;
+			path = ApnaBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB2AC36B1B36C79B00B41AD7 /* Project object */;
+}
