@@ -11,9 +11,9 @@
 		BB2AC37C1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC37A1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld */; };
 		BB2AC37E1B36C79B00B41AD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */; };
 		BB2AC3811B36C79B00B41AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC37F1B36C79B00B41AD7 /* Main.storyboard */; };
-		BB2AC3831B36C79B00B41AD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC3821B36C79B00B41AD7 /* Images.xcassets */; };
 		BB2AC3861B36C79B00B41AD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */; };
 		BB2AC3921B36C79B00B41AD7 /* ApnaBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */; };
+		BB2AC39C1B36C7F400B41AD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +33,11 @@
 		BB2AC37B1B36C79B00B41AD7 /* ApnaBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ApnaBox.xcdatamodel; sourceTree = "<group>"; };
 		BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB2AC3801B36C79B00B41AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB2AC3821B36C79B00B41AD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BB2AC3851B36C79B00B41AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BB2AC38B1B36C79B00B41AD7 /* ApnaBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApnaBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2AC3901B36C79B00B41AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApnaBoxTests.swift; sourceTree = "<group>"; };
+		BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				BB2AC3781B36C79B00B41AD7 /* AppDelegate.swift */,
 				BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */,
 				BB2AC37F1B36C79B00B41AD7 /* Main.storyboard */,
-				BB2AC3821B36C79B00B41AD7 /* Images.xcassets */,
+				BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */,
 				BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */,
 				BB2AC37A1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld */,
 				BB2AC3761B36C79B00B41AD7 /* Supporting Files */,
@@ -195,9 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2AC39C1B36C7F400B41AD7 /* Images.xcassets in Resources */,
 				BB2AC3811B36C79B00B41AD7 /* Main.storyboard in Resources */,
 				BB2AC3861B36C79B00B41AD7 /* LaunchScreen.xib in Resources */,
-				BB2AC3831B36C79B00B41AD7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
