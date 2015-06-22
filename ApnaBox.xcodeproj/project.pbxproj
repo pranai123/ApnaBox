@@ -14,6 +14,16 @@
 		BB2AC3861B36C79B00B41AD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */; };
 		BB2AC3921B36C79B00B41AD7 /* ApnaBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */; };
 		BB2AC39C1B36C7F400B41AD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */; };
+		BBCD0BB11B37DF9E0085F5C9 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BB01B37DF9E0085F5C9 /* SideBarTableViewController.swift */; };
+		BBCD0BB31B37DFEC0085F5C9 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BB21B37DFEC0085F5C9 /* LoginScreenViewController.swift */; };
+		BBCD0BB51B37E1830085F5C9 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BB41B37E1830085F5C9 /* ChatsViewController.swift */; };
+		BBCD0BB71B37E1900085F5C9 /* BroadcastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BB61B37E1900085F5C9 /* BroadcastsViewController.swift */; };
+		BBCD0BBB1B37E1AF0085F5C9 /* GlobalGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BBA1B37E1AF0085F5C9 /* GlobalGroupsViewController.swift */; };
+		BBCD0BBD1B37E1BC0085F5C9 /* EmployeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BBC1B37E1BC0085F5C9 /* EmployeesViewController.swift */; };
+		BBCD0BBF1B37E1C50085F5C9 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BBE1B37E1C50085F5C9 /* FriendsViewController.swift */; };
+		BBCD0BC81B37E35C0085F5C9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BC71B37E35C0085F5C9 /* SWRevealViewController.m */; };
+		BBCD0BCB1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BCA1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift */; };
+		BBCD0BCD1B37F28D0085F5C9 /* navigation bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BCC1B37F28D0085F5C9 /* navigation bar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,18 @@
 		BB2AC3901B36C79B00B41AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApnaBoxTests.swift; sourceTree = "<group>"; };
 		BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBCD0BB01B37DF9E0085F5C9 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		BBCD0BB21B37DFEC0085F5C9 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		BBCD0BB41B37E1830085F5C9 /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		BBCD0BB61B37E1900085F5C9 /* BroadcastsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastsViewController.swift; sourceTree = "<group>"; };
+		BBCD0BBA1B37E1AF0085F5C9 /* GlobalGroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalGroupsViewController.swift; sourceTree = "<group>"; };
+		BBCD0BBC1B37E1BC0085F5C9 /* EmployeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesViewController.swift; sourceTree = "<group>"; };
+		BBCD0BBE1B37E1C50085F5C9 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		BBCD0BC51B37E35C0085F5C9 /* ApnaBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApnaBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBCD0BC61B37E35C0085F5C9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BBCD0BC71B37E35C0085F5C9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BBCD0BCA1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGroupsTableViewController.swift; sourceTree = "<group>"; };
+		BBCD0BCC1B37F28D0085F5C9 /* navigation bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "navigation bar.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +104,21 @@
 				BB2AC3781B36C79B00B41AD7 /* AppDelegate.swift */,
 				BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */,
 				BB2AC37F1B36C79B00B41AD7 /* Main.storyboard */,
+				BBCD0BCC1B37F28D0085F5C9 /* navigation bar.swift */,
+				BBCD0BB41B37E1830085F5C9 /* ChatsViewController.swift */,
+				BBCD0BBC1B37E1BC0085F5C9 /* EmployeesViewController.swift */,
+				BBCD0BC91B37E36C0085F5C9 /* SWRevealViewController */,
+				BBCD0BBE1B37E1C50085F5C9 /* FriendsViewController.swift */,
+				BBCD0BBA1B37E1AF0085F5C9 /* GlobalGroupsViewController.swift */,
+				BBCD0BCA1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift */,
+				BBCD0BB61B37E1900085F5C9 /* BroadcastsViewController.swift */,
+				BBCD0BB21B37DFEC0085F5C9 /* LoginScreenViewController.swift */,
+				BBCD0BB01B37DF9E0085F5C9 /* SideBarTableViewController.swift */,
 				BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */,
 				BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */,
 				BB2AC37A1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld */,
 				BB2AC3761B36C79B00B41AD7 /* Supporting Files */,
+				BBCD0BC51B37E35C0085F5C9 /* ApnaBox-Bridging-Header.h */,
 			);
 			path = ApnaBox;
 			sourceTree = "<group>";
@@ -113,6 +146,15 @@
 				BB2AC3901B36C79B00B41AD7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBCD0BC91B37E36C0085F5C9 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BBCD0BC61B37E35C0085F5C9 /* SWRevealViewController.h */,
+				BBCD0BC71B37E35C0085F5C9 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +258,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCD0BBB1B37E1AF0085F5C9 /* GlobalGroupsViewController.swift in Sources */,
+				BBCD0BB11B37DF9E0085F5C9 /* SideBarTableViewController.swift in Sources */,
 				BB2AC37E1B36C79B00B41AD7 /* ViewController.swift in Sources */,
 				BB2AC3791B36C79B00B41AD7 /* AppDelegate.swift in Sources */,
+				BBCD0BCD1B37F28D0085F5C9 /* navigation bar.swift in Sources */,
+				BBCD0BB31B37DFEC0085F5C9 /* LoginScreenViewController.swift in Sources */,
+				BBCD0BBF1B37E1C50085F5C9 /* FriendsViewController.swift in Sources */,
+				BBCD0BB71B37E1900085F5C9 /* BroadcastsViewController.swift in Sources */,
+				BBCD0BB51B37E1830085F5C9 /* ChatsViewController.swift in Sources */,
+				BBCD0BBD1B37E1BC0085F5C9 /* EmployeesViewController.swift in Sources */,
 				BB2AC37C1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld in Sources */,
+				BBCD0BCB1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift in Sources */,
+				BBCD0BC81B37E35C0085F5C9 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +399,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ApnaBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ApnaBox/ApnaBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -360,12 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ApnaBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ApnaBox/ApnaBox-Bridging-Header.h";
 			};
 			name = Release;
 		};
