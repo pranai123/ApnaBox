@@ -24,6 +24,8 @@
 		BBCD0BC81B37E35C0085F5C9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BC71B37E35C0085F5C9 /* SWRevealViewController.m */; };
 		BBCD0BCB1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BCA1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift */; };
 		BBCD0BCD1B37F28D0085F5C9 /* navigation bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BCC1B37F28D0085F5C9 /* navigation bar.swift */; };
+		BBE57BC01B380A20008A2C20 /* ChatsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE57BBF1B380A20008A2C20 /* ChatsTableViewCell.swift */; };
+		BBE57BC21B380A30008A2C20 /* ChatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE57BC11B380A30008A2C20 /* ChatsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		BBCD0BC71B37E35C0085F5C9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		BBCD0BCA1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGroupsTableViewController.swift; sourceTree = "<group>"; };
 		BBCD0BCC1B37F28D0085F5C9 /* navigation bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "navigation bar.swift"; sourceTree = "<group>"; };
+		BBE57BBF1B380A20008A2C20 /* ChatsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsTableViewCell.swift; sourceTree = "<group>"; };
+		BBE57BC11B380A30008A2C20 /* ChatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				BBCD0BBC1B37E1BC0085F5C9 /* EmployeesViewController.swift */,
 				BBCD0BC91B37E36C0085F5C9 /* SWRevealViewController */,
 				BBCD0BBE1B37E1C50085F5C9 /* FriendsViewController.swift */,
+				BBE57BC11B380A30008A2C20 /* ChatsTableViewController.swift */,
+				BBE57BBF1B380A20008A2C20 /* ChatsTableViewCell.swift */,
 				BBCD0BBA1B37E1AF0085F5C9 /* GlobalGroupsViewController.swift */,
 				BBCD0BCA1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift */,
 				BBCD0BB61B37E1900085F5C9 /* BroadcastsViewController.swift */,
@@ -266,11 +272,13 @@
 				BBCD0BB31B37DFEC0085F5C9 /* LoginScreenViewController.swift in Sources */,
 				BBCD0BBF1B37E1C50085F5C9 /* FriendsViewController.swift in Sources */,
 				BBCD0BB71B37E1900085F5C9 /* BroadcastsViewController.swift in Sources */,
+				BBE57BC21B380A30008A2C20 /* ChatsTableViewController.swift in Sources */,
 				BBCD0BB51B37E1830085F5C9 /* ChatsViewController.swift in Sources */,
 				BBCD0BBD1B37E1BC0085F5C9 /* EmployeesViewController.swift in Sources */,
 				BB2AC37C1B36C79B00B41AD7 /* ApnaBox.xcdatamodeld in Sources */,
 				BBCD0BCB1B37EB3A0085F5C9 /* MyGroupsTableViewController.swift in Sources */,
 				BBCD0BC81B37E35C0085F5C9 /* SWRevealViewController.m in Sources */,
+				BBE57BC01B380A20008A2C20 /* ChatsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

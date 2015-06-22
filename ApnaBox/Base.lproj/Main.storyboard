@@ -47,12 +47,12 @@
         <scene sceneID="Z4D-ms-DZu">
             <objects>
                 <tableViewController id="YCs-CG-V5y" customClass="MyGroupsTableViewController" customModule="ApnaBox" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jsr-ZH-btz">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jsr-ZH-btz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="jEs-QA-cea">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="test" id="jEs-QA-cea">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jEs-QA-cea" id="rS0-VB-CNb">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -180,7 +180,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue" translatesAutoresizingMaskIntoConstraints="NO" id="rc5-7j-Nbs">
-                                                    <rect key="frame" x="-26" y="-6" width="642" height="165"/>
+                                                    <rect key="frame" x="-26" y="-173" width="642" height="332"/>
                                                 </imageView>
                                                 <imageView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="NDa-Mg-iW9">
                                                     <rect key="frame" x="35" y="28" width="70" height="70"/>
@@ -474,7 +474,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GU5-ft-FRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="460" y="-1538"/>
+            <point key="canvasLocation" x="826" y="-1511"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NBf-5n-rfL">
@@ -501,38 +501,44 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="7Fv-UQ-TVw" kind="relationship" relationship="rootViewController" id="AEU-iG-yO4"/>
+                        <segue destination="mNJ-Ln-qE7" kind="relationship" relationship="rootViewController" id="q6d-1k-Qyf"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xhw-7P-5O0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1194" y="-2244"/>
         </scene>
-        <!--Chats-->
-        <scene sceneID="qA0-Lp-Blx">
+        <!--Chats Table View Controller-->
+        <scene sceneID="JZC-7t-XAj">
             <objects>
-                <viewController id="7Fv-UQ-TVw" customClass="ChatsViewController" customModule="ApnaBox" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JA4-jO-LSm"/>
-                        <viewControllerLayoutGuide type="bottom" id="ncA-7y-eLP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0Jc-R5-HJf">
+                <tableViewController id="mNJ-Ln-qE7" customClass="ChatsTableViewController" customModule="ApnaBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8Ns-b2-bOQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Chats" id="qDM-My-0wb">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="72q-LN-Cc4"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="ef0-uf-0Na">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ef0-uf-0Na" id="faA-C1-TOS">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mNJ-Ln-qE7" id="1FX-ck-5wC"/>
+                            <outlet property="delegate" destination="mNJ-Ln-qE7" id="fvN-Om-vJo"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Zcu-JO-e7a">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="Q8C-3R-ief"/>
                     </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="menuButton" destination="72q-LN-Cc4" id="uS0-UP-M8e"/>
+                        <outlet property="menuButton" destination="Q8C-3R-ief" id="mfq-or-pWJ"/>
                     </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4mE-up-oWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A6K-Rs-yCM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1868" y="-2235"/>
+            <point key="canvasLocation" x="1841" y="-2250"/>
         </scene>
         <!--Broadcasts-->
         <scene sceneID="Pc0-bo-QaQ">
