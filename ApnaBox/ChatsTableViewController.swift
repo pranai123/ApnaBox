@@ -51,12 +51,12 @@ class ChatsTableViewController: UITableViewController {
 
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! ChatsTableViewCell
         let background:UIImage = UIImage(named: "bubble_blue.9")!
         let cellBackgroundView:UIImageView = UIImageView()
         cellBackgroundView.image = background
         cell.backgroundView = cellBackgroundView
-       // cell.textLabel?.text = testArray[indexPath.row] as? String
+        cell.label.text = testArray[indexPath.row] as? String
      
 
         return cell
