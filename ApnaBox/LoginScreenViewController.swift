@@ -21,6 +21,10 @@ class LoginScreenViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func ss(sender: AnyObject) {
+        
+    
+    }
 
     /*
     // MARK: - Navigation

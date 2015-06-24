@@ -14,6 +14,7 @@
 		BB2AC3861B36C79B00B41AD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC3841B36C79B00B41AD7 /* LaunchScreen.xib */; };
 		BB2AC3921B36C79B00B41AD7 /* ApnaBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */; };
 		BB2AC39C1B36C7F400B41AD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */; };
+		BBC0EBF31B3AB9650097B5BB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC0EBF21B3AB9650097B5BB /* Storyboard.storyboard */; };
 		BBCD0BB11B37DF9E0085F5C9 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BB01B37DF9E0085F5C9 /* SideBarTableViewController.swift */; };
 		BBCD0BB31B37DFEC0085F5C9 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BB21B37DFEC0085F5C9 /* LoginScreenViewController.swift */; };
 		BBCD0BB51B37E1830085F5C9 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD0BB41B37E1830085F5C9 /* ChatsViewController.swift */; };
@@ -50,6 +51,7 @@
 		BB2AC3901B36C79B00B41AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB2AC3911B36C79B00B41AD7 /* ApnaBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApnaBoxTests.swift; sourceTree = "<group>"; };
 		BB2AC39B1B36C7F400B41AD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBC0EBF21B3AB9650097B5BB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		BBCD0BB01B37DF9E0085F5C9 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
 		BBCD0BB21B37DFEC0085F5C9 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		BBCD0BB41B37E1830085F5C9 /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				BB2AC3781B36C79B00B41AD7 /* AppDelegate.swift */,
 				BB2AC37D1B36C79B00B41AD7 /* ViewController.swift */,
 				BB2AC37F1B36C79B00B41AD7 /* Main.storyboard */,
+				BBC0EBF21B3AB9650097B5BB /* Storyboard.storyboard */,
 				BBCD0BCC1B37F28D0085F5C9 /* navigation bar.swift */,
 				BBCD0BB41B37E1830085F5C9 /* ChatsViewController.swift */,
 				BBCD0BBC1B37E1BC0085F5C9 /* EmployeesViewController.swift */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2AC39C1B36C7F400B41AD7 /* Images.xcassets in Resources */,
+				BBC0EBF31B3AB9650097B5BB /* Storyboard.storyboard in Resources */,
 				BB2AC3811B36C79B00B41AD7 /* Main.storyboard in Resources */,
 				BB2AC3861B36C79B00B41AD7 /* LaunchScreen.xib in Resources */,
 			);

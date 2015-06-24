@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AF38B7D8-F593-40C1-BE9C-493B48FCA9A5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ApnaBox</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>45F3765152A0DE04D4401C08D2707AC1F44D5853</key>
 		<string>https://github.com/pranai123/ApnaBox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ApnaBox.xcodeproj/project.xcworkspace</string>
+	<string>ApnaBox.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>45F3765152A0DE04D4401C08D2707AC1F44D5853</key>
